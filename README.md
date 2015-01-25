@@ -1,0 +1,2 @@
+# QuranTaha
+QuranTaha font

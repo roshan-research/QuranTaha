@@ -62,5 +62,11 @@ div > span {
 	<span>قلم جدید</span>
 	<input id="new" value="ذَٰلِكَ ٱلْكِتَٰبُ" />
 </div>
+
+<script type="text/javascript">
+	document.querySelector('#old').addEventListener('input', function() {
+		document.querySelector('#new').value = this.value;
+	});
+</script>
 </body>
 </html>
